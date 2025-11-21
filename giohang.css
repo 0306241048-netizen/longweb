@@ -1,0 +1,174 @@
+.container
+{
+    max-width: 90%;
+    margin: auto;
+}
+.header1
+{
+    background-color: #76d9f6;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    
+}
+.logo1
+{
+    display: flex;
+    align-items: center;
+    color: #f2fafd;
+}
+.logo1 i{
+    font-size: 50px;
+}
+
+.search
+{
+    align-content: center;
+}
+.search input{
+    width: 350px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: darkgrey;
+    padding-left: 30px;
+}
+.icon{
+    position: relative;
+}
+.trai
+{
+    position: absolute;
+    
+    left: 5px;
+    top:50%;
+    transform:translateY(-50%)
+}
+.phai
+{
+    position: absolute;
+    right: 5px;
+    top:50%;
+    transform:translateY(-50%)
+}
+.giohang {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 25px;
+    
+}
+.dangnhap{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 25px;
+}
+.right ul li a {
+    text-decoration: none;
+
+}
+
+.right ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 30px;
+}
+.gh{
+    color: #f2fafd;
+}
+.dn{
+    color: #f2fafd;
+}
+
+.header2{
+    display: flex;
+    padding-left: 30px;
+    background-color: #f2fafd;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ten1 h3{
+    margin-bottom: 50px;
+}
+
+
+
+.footer{
+    background-color: #75a7a8;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.menu3 {
+    color: aliceblue;
+    display: flex;
+    font-size: 20px;
+    gap:120px
+}
+.content{
+    background-color: #ffffff;
+}
+.contentgh{
+    max-width: 70%;
+    margin: auto;
+    background-color: #92daf7;
+}
+.book img{
+    width: 70px;
+    height: 100px;
+}
+.ghtren .book{
+    display: flex;
+}
+.ghtren .trenbp{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.ghduoi .book{
+    display: flex;
+}
+.ghduoi .duoibp{
+    padding-left: 30%;
+}
+.trenbp p{
+    margin: 3%;
+}
+.ghduoi{
+    padding-left: 20%;
+}
+.ghtren{
+    margin-bottom: 5%;
+    padding-left: 20%;
+}
+.duoibp button{
+    border-radius: 13px;
+    height: 30px;
+    width: 80px;
+}
+.ten h4{
+    padding-left: 30px;
+}
+
+
+
+.ten3{
+    margin-right: 20%;
+    margin-top: 5%;
+}
